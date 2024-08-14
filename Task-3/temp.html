@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="temp.css"/>
+    <title>TempratureConverter</title>
+</head>
+<body>
+    <div class="con">
+        <div class="main">
+            <h1>Temprature Converter</h1>
+            <div class="deta">
+                <label><h2>Degrees:</h2></label><br>
+                <input  class="inp" id="input"type="number"/><br><br>
+                <label><h2>Type:</h2></label><br>
+                <select  id="cho" class="choose">
+                    <option value="cel">Celsious to Fahrenheit</option>
+                    <option value="fah">Fahranheit to Celsious</option>
+                    <option value="cekel">Celsious to Kelvin</option>
+                    <option value="kelce">Kelvin to Celsious</option>
+                    <option value="fahkel">Fahranheit to Kelvin</option>
+                    <option value="kelfah">Kelvin to Fahranheit</option>
+                </select>
+            </div>
+            <div id="but">
+                <button  id="bt"onclick="conVert()"><h2>Convert</h2></button>
+            </div>
+            <div class="paa">
+                <p class="para" id="pa"></p>
+            </div>
+            <button id="bt2" onclick="clearAll()">
+                Reset
+            </button>
+         
+        </div>
+    </div>
+    <script src="temp.js"></script>
+</body>
+</html>

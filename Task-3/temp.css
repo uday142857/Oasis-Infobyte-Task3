@@ -1,0 +1,87 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-style: italic;
+}
+
+.con{
+    background-image:linear-gradient(rgba(0, 28, 50,0.5), rgba(0, 28, 50, 0.5)), url("https://wallpapers.com/images/hd/cool-red-and-black-84acxe32e11komh3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    background-color: #eaeaea;
+    border:1px solid black;
+    border-radius: 15px;
+    width: 350px;
+    height: 550px;
+    text-align: center;
+    /* margin: auto; */
+}
+h1{
+    padding-top: 20px;
+}
+.deta{
+    text-align: center;
+    padding-top: 50px;
+}
+input{
+    font-size: large;
+    padding-left: 10px;
+    width: 300px;
+    height: 30px;
+    border: 1px solid red;
+    border-radius: 10px;
+    box-shadow: 5px 4px 8px rgba(0, 0, 0, 0.5);
+}
+select{
+    font-size: large;
+    width: 300px;
+    height: 30px;
+    border: 1px solid red;
+    border-radius: 10px;
+    box-shadow: 5px 4px 8px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+#but{
+    padding: 20px;
+}
+#bt{
+    padding: 30px;
+    border-radius: 50%;
+    color: whitesmoke;
+    background: linear-gradient( to right, red , black);
+    cursor: pointer;
+}
+#pa{
+
+}
+.paa{
+    margin: auto;
+    width: 250px;
+    height: 100px;
+    border: 1px solid black;
+    box-shadow: 5px 4px 8px rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.para{
+    font-size: x-large;
+
+
+}
+#bt2{
+    margin-top: 8px;
+    padding: 5px;
+    border-radius: 50%;
+    color: whitesmoke;
+    background: linear-gradient( to right, red , black);
+    cursor: pointer;
+}
